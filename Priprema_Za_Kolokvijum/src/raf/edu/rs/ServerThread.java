@@ -73,8 +73,7 @@ public class ServerThread implements Runnable {
 				
 				//---------------------------------------------------------------------------------------------
 				// Izdvajamo znak operacije iz poruke koju smo primili
-				// koristimo metodu substring klase String da bi smo uzeli podstring
-				// izmedju nultog i prvog mesta u stringu
+				// koristimo metodu substring klase String da bi smo uzeli podstring koji sadrzi znak operacije
 				//---------------------------------------------------------------------------------------------
 				String operation = message.substring(0, 1);
 				
