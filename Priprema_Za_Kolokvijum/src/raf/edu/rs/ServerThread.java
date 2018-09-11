@@ -111,7 +111,7 @@ public class ServerThread implements Runnable {
 					// Vrismo deljenje trenuntog broja sa novim koji je klijent prosledio
 					//---------------------------------------------------------------------------------------------
 					case "/":
-						number *= temporaryNumber;
+						number /= temporaryNumber;
 						break;
 					
 					//---------------------------------------------------------------------------------------------
